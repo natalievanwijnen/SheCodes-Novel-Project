@@ -1,24 +1,134 @@
-h1 {
+:root {
+  --red: #fe451e;
+  --pink: #f6b19e;
+  --yellow: #fcef23;
+  --blue: #22dadd;
+  --beige: #f7f8d9;
+  --white: #fff;
+  --black: #000;
+}
+body {
+  background: var(--beige);
+}
+
+.container {
   font-family: "Poppins", sans-serif;
-  font-size: 96px;
   font-style: normal;
-  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Everyone-in-this-Room-will-Someday-be-Dead-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 150px;
+  box-sizing: border-box;
   text-align: center;
+}
+
+header h1 {
+  color: var(--white);
+  font-size: 96px;
+  font-weight: 700;
   margin: 0 auto;
 }
 
-h2 {
-  font-family: "Poppins", sans-serif;
+header h2 {
+  color: var(--white);
   font-size: 59px;
-  font-style: normal;
-  font-weight: 600;
-  text-align: center;
+  font-weight: 700;
+  margin: 0 auto;
 }
 
-h3 {
-  font-family: "Poppins", sans-serif;
+header h3 {
+  color: var(--white);
   font-size: 36px;
-  font-style: normal;
   font-weight: 400;
-  text-align: center;
+  margin: 0 auto;
+}
+
+header a {
+  background-color: var(--pink);
+  border-radius: 50px;
+  color: var(--black);
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 32px;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color: var(--red);
+  color: var(--white);
+  transition: all 0.25s ease-in-out;
+}
+
+.intro h2 {
+  color: var(--red);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  header {
+    padding: 40px;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 36px;
+  }
+
+  header h3 {
+    font-size: 24px;
+  }
+
+  header a {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+  header {
+    padding: 25px;
+  }
+
+  header h1 {
+    font-size: 36px;
+  }
+
+  header h2 {
+    font-size: 28px;
+  }
+
+  header h3 {
+    font-size: 18px;
+  }
+
+  header a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }
