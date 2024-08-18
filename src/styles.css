@@ -374,14 +374,14 @@ i {
 footer {
   align-items: center;
   background-color: var(--pink);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../images/library.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--white);
   display: flex;
-  filter: saturate(1.5);
+  filter: saturate(2);
   flex-direction: column;
   justify-content: center;
   line-height: 2.5;
@@ -391,6 +391,11 @@ footer {
 footer a {
   color: var(--white);
   text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--pink);
+  transition: all 0.25s ease-in-out;
 }
 
 footer ul {
