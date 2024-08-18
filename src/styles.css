@@ -61,7 +61,7 @@ header h3 {
 }
 
 header a {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border-radius: 50px;
   color: var(--black);
   display: inline-block;
@@ -83,7 +83,7 @@ header a:hover {
 }
 
 .intro h3 {
-  color: var(--black);
+  color: var(--pink);
   font-size: 28px;
   font-weight: 400;
   margin: 0 auto;
