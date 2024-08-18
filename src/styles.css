@@ -526,7 +526,7 @@ footer li {
   }
 
   .grid.grid-3-uneven-columns {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .grid.grid-4-columns {
