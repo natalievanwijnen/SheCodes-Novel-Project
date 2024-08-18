@@ -483,6 +483,35 @@ footer li {
     padding: 10px 20px;
   }
 
+  section.intro {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 25px 25px 50px 25px;
+  }
+
+  .book-details {
+    background-color: var(--beige);
+    padding: 25px 25px 35px 25px;
+  }
+
+  .reviews-container {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 25px 25px 50px 25px;
+  }
+
+  .video-container {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 25px 25px 50px 25px;
+  }
+
+  .recommendations {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 25px 25px 50px 25px;
+  }
+
   .intro img {
     width: 100%;
   }
