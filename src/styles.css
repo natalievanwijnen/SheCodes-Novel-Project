@@ -21,17 +21,17 @@ body {
 
 /* Header Styles */
 header {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url("../images/Everyone-in-this-Room-will-Someday-be-Dead-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
+  justify-content: center;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -79,7 +79,7 @@ header a:hover {
 section.intro {
   margin: 0 auto;
   max-width: 1400px;
-  padding: 50px;
+  padding: 75px 75px 100px 75px;
 }
 
 .intro h2 {
@@ -113,8 +113,7 @@ section.intro {
 /* Book Details Section Styles */
 .book-details {
   background-color: var(--beige);
-  padding: 50px;
-  padding-bottom: 60px;
+  padding: 75px 75px 85px 75px;
 }
 
 .book-details h2 {
@@ -164,7 +163,7 @@ th {
 .reviews-container {
   margin: 0 auto;
   max-width: 1400px;
-  padding: 50px 50px 75px 50px;
+  padding: 75px 75px 100px 75px;
 }
 
 .reviews h2 {
@@ -218,7 +217,7 @@ i {
 .video-container {
   margin: 0 auto;
   max-width: 1400px;
-  padding: 50px 50px 75px 50px;
+  padding: 75px 75px 100px 75px;
 }
 
 .video h2 {
@@ -272,7 +271,7 @@ i {
 .recommendations {
   margin: 0 auto;
   max-width: 1400px;
-  padding: 50px 50px 75px 50px;
+  padding: 75px 75px 100px 75px;
 }
 
 .recommendations h2 {
@@ -336,6 +335,12 @@ i {
   text-align: center;
 }
 
+.recommendations a:hover {
+  background-color: var(--pink);
+  color: var(--black);
+  transition: all 0.25s ease-in-out;
+}
+
 /* Grid Styles */
 .grid.grid-2-columns {
   display: grid;
@@ -369,11 +374,14 @@ i {
 footer {
   align-items: center;
   background-color: var(--pink);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/library.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: var(--black);
+  color: var(--white);
   display: flex;
+  filter: saturate(1.5);
   flex-direction: column;
   justify-content: center;
   line-height: 2.5;
@@ -381,7 +389,7 @@ footer {
 }
 
 footer a {
-  color: var(--black);
+  color: var(--white);
   text-decoration: none;
 }
 
